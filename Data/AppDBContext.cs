@@ -14,7 +14,7 @@ namespace EfCoreRelation.Data
         {
         }
 
-
+     
         public DbSet<RegisterEmp> registerEmps { get; set; }
         public DbSet<Employee> employees { get; set; }
         //all address table 

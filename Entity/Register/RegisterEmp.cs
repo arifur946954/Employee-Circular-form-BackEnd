@@ -1,4 +1,6 @@
-﻿namespace EfCoreRelation.Entity.Register
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace EfCoreRelation.Entity.Register
 {
     public class RegisterEmp
     {

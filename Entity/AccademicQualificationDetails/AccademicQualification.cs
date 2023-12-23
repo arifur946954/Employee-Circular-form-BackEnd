@@ -12,7 +12,7 @@ namespace EfCoreRelation.Entity.AccademicQualificationDetails
         public string Instution { get; set; }
         public string Major { get; set; }
         public double Result { get; set; }
-        public string PassingYear { get; set; }
+        public DateTime PassingYear { get; set; }
 
 
         //fk

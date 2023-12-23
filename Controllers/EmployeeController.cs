@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
 using EfCoreRelation.Data;
+using EfCoreRelation.DTOs;
 using EfCoreRelation.DTOs.AccademicQualification;
 using EfCoreRelation.DTOs.Address;
 using EfCoreRelation.DTOs.Employee;
 using EfCoreRelation.DTOs.WorkExprenceDetails;
+using EfCoreRelation.Entity;
 using EfCoreRelation.Entity.AccademicQualificationDetails;
 using EfCoreRelation.Entity.Address;
 using EfCoreRelation.Entity.Employees;
@@ -139,6 +141,10 @@ namespace EfCoreRelation.Controllers
             /*  return Created($"/customer/${newCustomer.Id}", newCustomer);*/
             return Ok(newEmployee);
         }
+
+     
+
+
 
 
         [HttpDelete]
